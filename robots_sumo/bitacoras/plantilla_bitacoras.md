@@ -14,16 +14,16 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 ## REGISTRO DE ACTIVIDADES
 ### Fecha: 05/10
 ### Integrantes presentes:
--Mosiul, Santiago
--Perez Silva, Joaquin
--Primus, Francisco
--Rubil, Mateo
--Virgilio, Benjamin
+- Mosiul, Santiago
+- Perez Silva, Joaquin
+- Primus, Francisco
+- Rubil, Mateo
+- Virgilio, Benjamin
 ### Objetivos de la jornada:
--Investigar funcionamiento Puente H
--Investigar PWM
--Diseñar borrador de codigo
--Diseñar diagrama esquematico
+- Investigar funcionamiento Puente H
+- Investigar PWM
+- Diseñar borrador de codigo
+- Diseñar diagrama esquematico
 
 ### Actividades realizadas:
 -
