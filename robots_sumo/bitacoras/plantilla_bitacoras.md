@@ -2,26 +2,28 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 
 # BITÁCORA DE PROYECTO – ROBOT SUMO
 
-## Equipo: _______________________________
-## Nombre del Robot: ______________________
-## Capitán: _______________________________
-## Subcapitán: ____________________________
+## Equipo: _Los Moschini______________________________
+## Nombre del Robot: _Beta_____________________
+## Capitán: __Perez Silva, Joaquin_____________________________
+## Subcapitán: __Mosiul,Santiago__________________________
 ## Integrantes:
--
--
--
+-Primus, Francisco
+-Rubil, Mateo
+-Virgilio, Benjamin
 
 ## REGISTRO DE ACTIVIDADES
-### Fecha: 
+### Fecha: 05/10
 ### Integrantes presentes:
--
--
--
-
+-Mosiul, Santiago
+-Perez Silva, Joaquin
+-Primus, Francisco
+-Rubil, Mateo
+-Virgilio, Benjamin
 ### Objetivos de la jornada:
--
--
--
+-Investigar funcionamiento Puente H
+-Investigar PWM
+-Diseñar borrador de codigo
+-Diseñar diagrama esquematico
 
 ### Actividades realizadas:
 -
@@ -56,21 +58,25 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 -
 
 ### APORTES INDIVIDUALES
-Integrante: ____________________________
+Integrante: _Mosiul, Santiago___________________________
 
 Tarea realizada:
 
-Integrante: ____________________________
+Integrante: _Perez Silva, Joaquin___________________________
 
 Tarea realizada:
 
-Integrante: ____________________________
+Integrante: _Primus, Francisco___________________________
 
 Tarea realizada:
 
-Integrante: ____________________________
+Integrante: _Rubil, Mateo___________________________
 
 Tarea realizada:
+
+Integrante:__Virgilio, Benjamin
+
+Tarea realizada:______________________
 
 Integrante: ____________________________
 
