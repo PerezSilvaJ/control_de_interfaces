@@ -2,10 +2,10 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 
 # BITÁCORA DE PROYECTO – ROBOT SUMO
 
-## Equipo: _Los Moschini______________________________
-## Nombre del Robot: _Beta_____________________
-## Capitán: __Perez Silva, Joaquin_____________________________
-## Subcapitán: __Mosiul,Santiago__________________________
+## Equipo: Los Moschini
+## Nombre del Robot: Beta
+## Capitán: Perez Silva, Joaquin
+## Subcapitán: Mosiul,Santiago
 ## Integrantes:
 -Primus, Francisco
 -Rubil, Mateo
@@ -58,26 +58,26 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 -
 
 ### APORTES INDIVIDUALES
-Integrante: _Mosiul, Santiago___________________________
+Integrante: Mosiul, Santiago
 
 Tarea realizada:
 
-Integrante: _Perez Silva, Joaquin___________________________
+Integrante: Perez Silva, Joaquin
 
 Tarea realizada:
 
-Integrante: _Primus, Francisco___________________________
+Integrante: Primus, Francisco
 
 Tarea realizada:
 
-Integrante: _Rubil, Mateo___________________________
+Integrante: Rubil, Mateo
 
 Tarea realizada:
 
-Integrante:__Virgilio, Benjamin
+Integrante: Virgilio, Benjamin
 
-Tarea realizada:______________________
+Tarea realizada:
 
-Integrante: ____________________________
+
 
 Tarea realizada:
