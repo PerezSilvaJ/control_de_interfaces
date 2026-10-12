@@ -2,18 +2,18 @@
 
 ## Equipo: Los Moschini
 ## Nombre del Robot: Beta
-## Capitán: Pérez Silva, Joaquin
+## Capitán: Pérez Silva, Joaquín
 ## Subcapitán: Mosiul, Santiago
 ## Integrantes:
 - Primus, Francisco
 - Rubil, Mateo
-- Virgilio, Benjamin
+- Virgilio, Benjamín
 
 ## REGISTRO DE ACTIVIDADES
 ### Fecha: 05/10
 ### Integrantes presentes:
 - Mosiul, Santiago
-- Perez Silva, Joaquin
+- Pérez Silva, Joaquín
 - Primus, Francisco
 - Rubil, Mateo
 - Virgilio, Benjamín
@@ -56,8 +56,19 @@
 
 <img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/f3f43fe2-b22a-416a-afbf-efb74f91c924" />
 
+Imagen que muestra el diagrama esquemático preliminar
+
 <img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/74a40f78-66c4-40ed-9d0e-0164a6752384" />
 
+Imagen que muestra el diagrama esquemático corregido
+
+<img width="1600" height="781" alt="image" src="https://github.com/user-attachments/assets/79e61f96-a8ce-40c2-a305-3fea67bdbb2f" />
+
+Imagen que muestra la utilización de ramas
+
+<img width="1600" height="780" alt="image" src="https://github.com/user-attachments/assets/2e70e7b8-5a5e-4762-98c7-26abb81e53b3" />
+
+Imagen que muestra la edición de documentos
 ### Tareas pendientes:
 -
 -
