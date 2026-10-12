@@ -64,3 +64,27 @@ En nuestro proyecto se utiliza un módulo controlador basado en puente H
 En la implementación real de un robot de competencia, el Puente H no trabaja solo:
 1. **Control de Velocidad (Pin Enable / ENA-ENB):** Mientras que los pines de entrada (IN1, IN2) deciden la dirección (girando los interruptores del puente), el pin de habilitación o *Enable* del módulo recibe la señal **PWM** investigada por el equipo. Esto permite modular la potencia que llega al motor sin perder la capacidad de invertir la marcha.
 2. **Lógica y Potencia:** El módulo permite separar la lógica de control de bajo voltaje (que proviene de la placa) de la alimentación directa de potencia para los motores.
+
+## 3. Control de Velocidad: Modulación por Ancho de Pulso (PWM)
+* **Investigado por:** Primus, Francisco
+* **Objetivo:** Investigar cómo funciona la técnica PWM para poder regular la velocidad de los motores del robot de sumo de forma eficiente y precisa.
+
+### Apuntes Teóricos: ¿Cómo funciona el PWM y los tiempos de la señal?
+Cuando controlamos los motores usando pines con capacidad PWM, la Raspberry Pi Pico W no entrega un voltaje fijo, sino una **señal digital cuadrada** que se prende y se apaga muy rápidamente.
+
+Esta señal se puede imaginar como una onda que sube y baja constantemente:
+* **Cuando la señal está arriba (HIGH):** El motor recibe energía y empuja.
+* **Cuando la señal está abajo (LOW):** El motor se queda sin energía por un instante.
+
+La clave de esta investigación es saber que **esos tiempos (cuánto tiempo pasa la señal arriba y cuánto abajo) se pueden alargar o achicar según lo que necesitemos**:
+1. **Si se alarga el tiempo en que la señal está arriba:** El motor recibe energía durante más porción de cada ciclo. En promedio, le llega más voltaje y **gira más rápido** (por ejemplo, al 80% o 90% de potencia para ir al ataque).
+2. **Si se achica el tiempo en que la señal está arriba:** El motor recibe impulsos muy cortos de energía. En promedio, le llega menos voltaje y **gira más lento** (por ejemplo, al 30% de potencia para maniobrar con precisión dentro de la pista).
+
+A esta relación entre el tiempo que la señal pasa arriba frente al tiempo total se le conoce técnicamente como **Ciclo de Trabajo (*Duty Cycle*)**.
+
+<img width="446" height="446" alt="image" src="https://github.com/user-attachments/assets/6942cba3-ab21-4abc-af0d-7d3b9d9eade6" />
+
+
+### Aplicación Práctica en el Robot de Sumo
+* Gracias a la variación de estos tiempos por código, evitamos que los motores giren siempre al 100% de su capacidad de golpe, lo que volvería al robot demasiado brusco e incontrolable.
+* Nos permite programar distintas velocidades de desplazamiento y empuje para adaptarnos de forma táctica a la competencia.
