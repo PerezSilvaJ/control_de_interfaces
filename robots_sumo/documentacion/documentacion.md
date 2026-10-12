@@ -1,3 +1,13 @@
+# Introducción
+
+Este es el documento de documentación, en el cual se expresan las investigaciones para realizar el proyecto de robot sumo. Para organizarlo de forma clara, cada tema cuenta con los siguientes puntos:
+
+* **Tema:** El encabezado que indica de qué parte o componente estamos hablando.
+* **Integrante:** Qué compañero del equipo hizo la investigación.
+* **Objetivo:** Qué es lo que buscábamos averiguar o lograr con esa investigación.
+* **Apuntes Teóricos:** La explicación de cómo funciona el componente o la teoría que investigamos.
+* **Aplicación:** Cómo se usa o se implementa eso en nuestro robot (si es que corresponde).
+
 ## 1. Microcontrolador: Raspberry Pi Pico W
 * **Investigado por:** Rubil, Mateo
 * **Objetivo:** Conocer la placa que usaremos como "cerebro" del robot, identificar la distribución de sus pines (pinout) y entender cómo nos permitirá controlarlo de forma inalámbrica.
