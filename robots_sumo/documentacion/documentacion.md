@@ -1,3 +1,34 @@
+## 1. Microcontrolador: Raspberry Pi Pico W
+* **Investigado por:** Rubil, Mateo
+* **Objetivo:** Conocer la placa que usaremos como "cerebro" del robot, identificar la distribución de sus pines (pinout) y entender cómo nos permitirá controlarlo de forma inalámbrica.
+
+### Apuntes teóricos e investigación
+La **Raspberry Pi Pico W** es una placa de desarrollo pequeña pero muy potente. Su microcontrolador principal es el **RP2040** (diseñado por Raspberry Pi), y además cuenta con un chip integrado para conectividad **Bluetooth y Wi-Fi (BLE)**. 
+
+En nuestro proyecto de sumo, la conexión Bluetooth es fundamental porque será el medio mediante el cual controlaremos los movimientos del robot de forma remota durante la competencia.
+
+#### Características principales de la placa:
+* **Microcontrolador:** RP2040 con un procesador de doble núcleo ARM Cortex-M0+.
+* **Memoria:** Cuenta con memoria interna para almacenar el programa que escribamos.
+* **Alimentación y Voltaje:** Trabaja con una lógica digital de **3.3V**. Esto es muy importante tenerlo en cuenta para no quemar ningún pin conectando componentes de 5V directamente sin protección.
+
+#### Análisis del Pinout (Distribución de Pines)
+
+
+<img width="842" height="590" alt="image" src="https://github.com/user-attachments/assets/d5415b38-6851-4c66-a027-7b25d005cf05" />
+
+La placa tiene un total de **40 pines físicos** distribuidos a los lados, entre los cuales destacan:
+1. **Pines de Alimentación y Energía:**
+   * **VBUS (Pin 40):** Nos entrega 5V directamente desde el puerto USB cuando la conectamos a la PC.
+   * **VSYS (Pin 39):** Sirve para alimentar la placa utilizando una batería externa.
+   * **3V3 (Pin 36):** Es una salida regulada de 3.3V que podemos usar para alimentar los sensores o la lógica de otros módulos pequeños.
+   * **GND:** Los pines de masa o tierra, necesarios para cerrar todos los circuitos eléctricos del robot.
+2. **Pines GPIO y PWM:**
+   * Los pines **GPIO** se pueden configurar como entradas (para leer pulsadores o sensores) o salidas (para encender LEDs o activar motores).
+   * Varios de estos pines soportan **PWM** por hardware, lo que nos dará la capacidad de regular la velocidad de los motores de tracción con precisión.
+3. **Pines de Comunicación:**
+   * Dispone de pines para protocolos estándar como **UART, I2C y SPI**, que sirven para conectar posibles futuros sensores de distancia o módulos adicionales.
+
 ## 2. Etapa de Potencia: El Puente H 
 * **Investigado por:** Virgilio, Benjamin.
 * **Objetivo:** Analizar el funcionamiento del circuito Puente H para la inversión de marcha y control de dirección de los motores DC.
