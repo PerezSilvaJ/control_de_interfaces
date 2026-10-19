@@ -92,7 +92,7 @@ A esta relación entre el tiempo que la señal pasa arriba frente al tiempo tota
 ## 4. Alimentacion de la Raspberry Pi Pico W
 * **Investigado por:** Virgilio, Benjamin.
 * **Objetivo:** Conocer las diferentes formas de alimentar la Raspberry Pi Pico W, identificar las tensiones adecuadas para su funcionamiento y aprender a realizar las conexiones eléctricas de manera segura, evitando daños en la placa y sus componentes
-* # Alimentación de la Raspberry Pi Pico W
+  
 
 ## Introducción
 
