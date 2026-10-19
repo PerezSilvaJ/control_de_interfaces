@@ -88,3 +88,38 @@ A esta relación entre el tiempo que la señal pasa arriba frente al tiempo tota
 ### Aplicación Práctica en el Robot de Sumo
 * Gracias a la variación de estos tiempos por código, evitamos que los motores giren siempre al 100% de su capacidad de golpe, lo que volvería al robot demasiado brusco e incontrolable.
 * Nos permite programar distintas velocidades de desplazamiento y empuje para adaptarnos de forma táctica a la competencia.
+
+## 4. Alimentacion de la Raspberry Pi Pico W
+* **Investigado por:** Virgilio, Benjamin.
+* **Objetivo:** Conocer las diferentes formas de alimentar la Raspberry Pi Pico W, identificar las tensiones adecuadas para su funcionamiento y aprender a realizar las conexiones eléctricas de manera segura, evitando daños en la placa y sus componentes
+* # Alimentación de la Raspberry Pi Pico W
+
+## Introducción
+
+La Raspberry Pi Pico W es una placa de desarrollo electrónico que permite realizar proyectos de programación, automatización y conexión inalámbrica mediante Wi-Fi y Bluetooth. Para funcionar, necesita recibir energía eléctrica mediante una fuente de alimentación adecuada.
+
+## Formas de alimentación
+
+La Raspberry Pi Pico W puede alimentarse de tres maneras principales:
+
+### 1. Alimentación por micro-USB
+
+Es la forma más sencilla y utilizada. Se conecta la placa a una computadora o a un cargador USB de 5 V mediante un cable micro-USB. Además de suministrar energía, permite programar la placa y transferir datos.
+
+### 2. Alimentación mediante el pin VSYS
+
+El pin VSYS permite alimentar la placa utilizando una fuente externa o una batería. Admite una tensión de entre 1,8 V y 5,5 V. El positivo de la fuente se conecta a VSYS y el negativo a GND (tierra).
+
+### 3. Alimentación mediante el pin 3V3
+
+También es posible alimentar la placa a través del pin 3V3, aplicando una tensión regulada de 3,3 V. Para utilizar este método, se necesita una fuente estable y correctamente regulada, ya que una tensión incorrecta puede dañar la placa.
+
+## Precauciones de seguridad
+
+Es importante respetar los límites de tensión de la placa. Los pines GPIO funcionan con señales de 3,3 V y no toleran directamente 5 V. Además, se debe evitar conectar fuentes de alimentación simultáneamente sin verificar que la conexión sea segura.
+
+## Conclusión
+
+La Raspberry Pi Pico W puede alimentarse mediante micro-USB, el pin VSYS o el pin 3V3. Para comenzar a trabajar con ella, se recomienda utilizar el puerto micro-USB, porque es un método simple y práctico que permite alimentar y programar la placa al mismo tiempo.
+
+
