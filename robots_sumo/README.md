@@ -1,85 +1,35 @@
-Carpeta designada para robot -nombre-
+# Hola! Somos "Los Moschini" y este es nuestro Robot de Sumo "Beta"
+
+¡Bienvenidos al repositorio de nuestro proyecto! Este espacio documenta el viaje entero de cómo armamos nuestro robot de sumo desde cero, pasando por las ideas en papel, los dolores de cabeza con el circuito, las horas de taller y, finalmente, el resultado final.
+
+---
+
+## 👥 Integrantes del equipo
+El equipo está compuesto por:
+* **Pérez Silva, Joaquín** (Capitán)
+* **Mosiul, Santiago** (Subcapitán)
+* **Primus, Francisco** 
+* **Rubil, Mateo** 
+* **Virgilio, Benjamín** 
+
+---
 
 
------------------------------------------
+## 🚀 Idea del proyecto
+El objetivo era diseñar y construir un robot de sumo funcional y robusto. Para lograrlo, integramos:
+* Una **Raspberry Pi Pico W** como cerebro del robot.
+* Un **Puente H L298N** para manejar la potencia de los motores.
+* Control de velocidad mediante **PWM** (Modulación por Ancho de pulso) para manejar velocidades.
+* Conexión a una red por dirección IP de la Raspberry para poder controlarlo directamente desde el celular.
 
+---
 
-## ¿Cómo clonar una sola rama de un repositorio de GitHub?
+## 📂 Organización de repositorio
+* **Aclaración:** Para ingresar a cada carpeta hay que cambiar de rama especifica, con el mismo nombre que la carpeta.
+* 📁 **Documentacion**: Los marcos de referencia y toda la teoría detrás del PWM y la arquitectura de la Pico W.
+* 📁 **Estructura**: Explicación más detallada de los problemas extraacadémicos, los diagramas esquemáticos, el mapeo de pines y fotos del antes y después.
+* 📁 **Firmware**: El código en C listo para correr en la Raspberry Pi Pico W.
+* 📁 **Bitacora**: El diario de cada clase, los problemas que fuimos tropezando y cómo los resolvimos.
 
-Este ejemplo lo haremos clonando y modificando la rama de `firmware`. A la hora de replicarlo, modificar esta palabra por el nombre de la rama que estén trabajando.
-#### 1. Clonar el repositorio
-
-Reemplazar `<URL_DEL_FORK>` por la URL del fork del repositorio del equipo.
-```bash
-git clone <URL_DEL_FORK>
-```
-Ingresar al directorio que acabamos de clonar `control_de_interfaces`
-```bash
-cd control_de_interfaces
-```
-Ingresar al directorio del proyecto.
-
-```bash
-cd robots_sumo
-```
-
-#### 2. Ver las ramas disponibles
-
-```bash
-git branch -a
-```
-
-#### 3. Cambiar a la rama de trabajo
-
-Por ejemplo, para trabajar sobre la rama `firmware`:
-```bash
-git switch firmware
-```
-Para verificar en qué rama estoy:
-
-```bash
-git branch
-```
-La rama activa aparecerá marcada con un `*`.
-
-#### 4. Actualizar la rama antes de comenzar
-
-Antes de realizar modificaciones, descarmos los últimos cambios del repositorio.
-
-```bash
-git pull origin firmware
-```
-------------------------------------------
-### Ahora podemos realizar las modificaciones que querramos, pero únicamente en los archivos que correspondan a esta rama de trabajo, y luego debemos subir todos los cambios
-
-#### 1. Configuramos nuestros datos:
-
-```bash
-git config user.email email@email.com
-```
-
-```bash
-git config user.name "Nombre Apellido"
-```
-
-#### 2. Verificar los cambios (al principio aparecerán en rojo)
-```bash
-git status
-```
-#### 3. Agregar los archivos modificados
-```bash
-git add .
-```
-#### 4. Verficar los cambios (ahora aparecerán en verde)
-```bash
-git status
-```
-
-#### 5. Crear un commit
-```bash
-git commit -m "Describo brevemente los cambios"
-```
-#### 6. Subir los cambios a GitHub
-```bash
-git push origin firmware
-```
+## ​🏁Cierre del proyecto
+* Más allá de los cables, el código y los dolores de cabeza con el circuito, lo mejor de todo fue el proceso, las risas y lo mucho que disfrutamos armarlo y sacarlo adelante juntos como equipo.
